@@ -1,6 +1,5 @@
 After logging in to the forum as the user m0th3r_5up3r10r, we went to the general forum and submitted a post.
-In the message of the post, we inserted the following anchor tag which contains the the exploit script to read all the cookies using an XmlHttpRequest
-"<a href="IP:PORT">link</a>"
+In the message of the post, we inserted an anchor tag with the link as the IP:PORT to a listening port that was established which contains the the exploit script to read all the cookies using an XmlHttpRequest
 
 Now we have a service listening on port XXXX on localhost (nc -l -v IP PORT)
 
